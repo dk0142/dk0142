@@ -25,22 +25,10 @@ dk0142/dk0142
         },
         "API_HASH": {
             "description": "Get from my.telegram.org/apps",
-            "required": true
+            "required": tru
         },
         "BOT_TOKEN": {
             "description": "Get from Telegram's @BotFather",
             "required": true
         }
-    },
-    "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ]
-}
+    
